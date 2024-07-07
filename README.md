@@ -28,4 +28,22 @@ Here are 3 algorithms depending on the preferences of the couple:
 #### Algorithm 3: Exclude Movies Seen by Both Members
 - Objective: Recommend movies that neither member of the couple has seen before.
 
+## Conclusion and Results
+
+Our model that recommends movies for couples is acceptable because, for two users, I obtained these movies:
+    
+    1. Movie 1: Blood, Guts, Bullets and Octane (1998)
+    2. Movie 2: Muppet Christmas Carol, The (1992)
+    3. Movie 3: Other Sister, The (1999)
+    4. Movie 4: Police Academy 5: Assignment: Miami Beach (1988)
+    5. Movie 5: Tommy Boy (1995)
+    6. Movie 6: Disclosure (1994)
+    7. Movie 7: Autopsy (Macchie Solari) (1975)
+    8. Movie 8: Rescuers, The (1977)
+    9. Movie 9: Angela's Ashes (1999)
+    10. Movie 10: Down Periscope (1996)
+
+Upon examining them, they seem to have some similarities. Nevertheless, I'm unsure if using the Funk SVD algorithm was the best solution. In fact, my algorithm is mostly based on the ratings and not really on Users informations and Movies informations (that
+is why I have not used the dataset IMDb which was only helping to add features to the movies). Perhaps I would have obtained more interesting results with a different recommender system algorithm.
+
 
